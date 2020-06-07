@@ -31,7 +31,7 @@ v_j = 3  # 木星速度
 pygame.init()  # 初始化
 screen = pygame.display.set_mode((800, 600))  # 创建窗口
 font = pygame.font.Font('../zhaozi.ttf', 30)  # 显示中文需要字体，否则可略过
-text = font.render("木星引力弹弓 - Crossin的编程教室", 1, white)
+text = font.render("木星引力弹弓", 1, white)
 pygame.display.set_caption("引力弹弓模拟")
 
 e = pygame.image.load("earth.png").convert_alpha()  # 地球图片
